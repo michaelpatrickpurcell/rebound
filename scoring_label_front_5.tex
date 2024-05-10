@@ -1,0 +1,23 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\setmainfont[Scale=1.5]{Tex Gyre Heros}
+
+\usepackage{calc}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\tikzset{score rectangle/.style={draw, inner sep=0pt, minimum height=56.65mm, minimum width=31.4mm}}
+\tikzset{score circle/.style={draw, ultra thick, inner sep=0pt, circle, minimum width=18mm}}
+
+
+
+\begin{document}
+\begin{tikzpicture}
+\Huge		
+\node[score rectangle, fill=Red] at (0mm,0mm) {};
+\node[score circle, fill=White] {5};
+
+\end{tikzpicture}
+\end{document}

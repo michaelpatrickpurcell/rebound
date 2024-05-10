@@ -1,0 +1,106 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\setmainfont[Scale=1.5]{Tex Gyre Heros}
+
+\usepackage{calc}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\tikzset{leg/.pic={
+\draw (0mm, 2.9375mm) -- (0mm, 0mm) -- (2.9375mm, 0mm);
+\draw (3.0625mm, 0mm) -- (6mm,0mm) -- (6mm, 2.9375mm);
+\draw (6mm, 3.0625mm) -- (6mm, 6mm) -- (9mm, 6mm) -- (9mm, 8.9375mm);
+\draw (9mm, 9.0625mm) -- (9mm, 12mm) -- (3.0625mm, 12mm);
+\draw (2.9375mm, 12mm) -- (-3mm, 12mm) --(-3mm, 9.0625mm);
+\draw (-3mm, 8.9375mm) -- (-3mm, 6mm) -- (0mm, 6mm) -- (0,3.06125mm);
+}}
+
+\tikzset{slot/.pic={
+\draw (-3mm, -0.0625mm) -- (-3mm, -3mm) -- (-0.0625mm, -3mm);
+\draw (0.0625mm, -3mm) -- (3mm, -3mm) -- (3mm, -0.0625mm);
+\draw (3mm, 0.0625mm) -- (3mm, 3mm) -- (0.0625mm, 3mm);
+\draw (-0.0625mm, 3mm) -- (-3mm, 3mm) -- (-3mm, 0.0625mm);
+}}
+
+\tikzset{void/.pic={
+\draw (-34mm, -0.0625mm) -- (-34mm, -34mm) -- (-0.0625mm, -34mm);
+\draw (0.0625mm, -34mm) -- (34mm, -34mm) -- (34mm, -0.0625mm);
+\draw (34mm, 0.0625mm) -- (34mm, 34mm) -- (0.0625mm, 34mm);
+\draw (-0.0625mm, 34mm) -- (-34mm, 34mm) -- (-34mm, 0.0625mm);
+}}
+
+\begin{document}
+\begin{tikzpicture}
+\path (34mm, 34mm) --++ (4in,2in);
+\path (34mm, 34mm) --++ (-4in,-2in);
+
+\pic at (34mm, 34mm) {void};
+%\draw[red] (0,0) -- (68mm, 0mm) -- (68mm, 68mm) -- (0mm, 68mm) -- cycle;
+
+\draw (-13.5mm, -6.0625mm) -- (-13.5mm,-13.5mm) -- (-6.0625mm, -13.5mm);
+
+\draw (-5.9375mm, -13.5mm) -- (4mm, -13.5mm) -- (4mm, -12mm) -- (8mm, -12mm) -- (8mm, -13.5mm) -- 
+(12mm, -13.5mm) -- (12mm, -12mm) -- (16mm, -12mm) -- (16mm, -13.5mm) -- 
+(20mm, -13.5mm) -- (20mm, -12mm) -- (24mm, -12mm) -- (24mm, -13.5mm) -- 
+(28mm, -13.5mm) -- (28mm, -12mm) -- (32mm, -12mm) -- (32mm, -13.5mm) -- 
+(36mm, -13.5mm) -- (36mm, -12mm) -- (40mm, -12mm) -- (40mm, -13.5mm) -- 
+(44mm, -13.5mm) -- (44mm, -12mm) -- (48mm, -12mm) -- (48mm, -13.5mm) -- 
+(52mm, -13.5mm) -- (52mm, -12mm) -- (56mm, -12mm) -- (56mm, -13.5mm) -- 
+(60mm, -13.5mm) -- (60mm, -12mm) -- (64mm, -12mm) -- (64mm, -13.5mm) -- 
+(73.9375mm, -13.5mm);
+\draw (74.0625mm, -13.5mm) -- (81.5mm, -13.5mm) -- (81.5mm, -6.0625mm);
+\draw (81.5mm, -5.9375mm) -- (81.5mm, 4mm) -- (80mm, 4mm) -- (80mm, 8mm) -- (81.5mm, 8mm) --
+(81.5mm, 12mm) -- (80mm, 12mm) -- (80mm, 16mm) -- (81.5mm, 16mm) --
+(81.5mm, 20mm) -- (80mm, 20mm) -- (80mm, 24mm) -- (81.5mm, 24mm) --
+(81.5mm, 28mm) -- (80mm, 28mm) -- (80mm, 32mm) -- (81.5mm, 32mm) --
+(81.5mm, 36mm) -- (80mm, 36mm) -- (80mm, 40mm) -- (81.5mm, 40mm) --
+(81.5mm, 44mm) -- (80mm, 44mm) -- (80mm, 48mm) -- (81.5mm, 48mm) --
+(81.5mm, 52mm) -- (80mm, 52mm) -- (80mm, 56mm) -- (81.5mm, 56mm) --
+(81.5mm, 60mm) -- (80mm, 60mm) -- (80mm, 64mm) -- (81.5mm, 64mm) --
+(81.5mm, 73.9375mm);
+\draw (81.5mm, 74.0625mm) -- (81.5mm, 81.5mm) -- (74.0625mm, 81.5mm);
+\draw (73.9375mm, 81.5mm) -- 
+(64mm, 81.5mm) -- (64mm, 80mm) -- (60mm, 80mm) -- (60mm, 81.5mm) -- 
+(56mm, 81.5mm) -- (56mm, 80mm) -- (52mm, 80mm) -- (52mm, 81.5mm) -- 
+(48mm, 81.5mm) -- (48mm, 80mm) -- (44mm, 80mm) -- (44mm, 81.5mm) -- 
+(40mm, 81.5mm) -- (40mm, 80mm) -- (36mm, 80mm) -- (36mm, 81.5mm) -- 
+(32mm, 81.5mm) -- (32mm, 80mm) -- (28mm, 80mm) -- (28mm, 81.5mm) -- 
+(24mm, 81.5mm) -- (24mm, 80mm) -- (20mm, 80mm) -- (20mm, 81.5mm) -- 
+(16mm, 81.5mm) -- (16mm, 80mm) -- (12mm, 80mm) -- (12mm, 81.5mm) -- 
+(8mm, 81.5mm) -- (8mm, 80mm) -- (4mm, 80mm) -- (4mm, 81.5mm) -- 
+(-5.9375mm, 81.5mm);
+\draw (-6.0625mm,81.5mm) -- (-13.5mm, 81.5mm) -- (-13.5mm, 74.0625mm);
+\draw (-13.5mm, 73.9375mm) --  
+(-13.5mm, 64mm) -- (-12mm, 64mm) -- (-12mm, 60mm) -- (-13.5mm, 60mm) --
+(-13.5mm, 56mm) -- (-12mm, 56mm) -- (-12mm, 52mm) -- (-13.5mm, 52mm) --
+(-13.5mm, 48mm) -- (-12mm, 48mm) -- (-12mm, 44mm) -- (-13.5mm, 44mm) --
+(-13.5mm, 40mm) -- (-12mm, 40mm) -- (-12mm, 36mm) -- (-13.5mm, 36mm) --
+(-13.5mm, 32mm) -- (-12mm, 32mm) -- (-12mm, 28mm) -- (-13.5mm, 28mm) --
+(-13.5mm, 24mm) -- (-12mm, 24mm) -- (-12mm, 20mm) -- (-13.5mm, 20mm) --
+(-13.5mm, 16mm) -- (-12mm, 16mm) -- (-12mm, 12mm) -- (-13.5mm, 12mm) --
+(-13.5mm, 8mm) -- (-12mm, 8mm) -- (-12mm, 4mm) -- (-13.5mm, 4mm) --
+(-13.5mm, -5.9375mm);
+
+%\node[draw, minimum width=6mm, minimum height=6mm, rotate=45] at (-6mm, -6mm) {};
+%\node[draw, minimum width=6mm, minimum height=6mm, rotate=45] at (74mm, -6mm) {};
+%\node[draw, minimum width=6mm, minimum height=6mm, rotate=45] at (74mm, 74mm) {};
+%\node[draw, minimum width=6mm, minimum height=6mm, rotate=45] at (-6mm, 74mm) {};
+
+\pic[rotate=45] at (-6mm, -6mm) {slot};
+\pic[rotate=45] at (74mm, -6mm) {slot};
+\pic[rotate=45] at (74mm, 74mm) {slot};
+\pic[rotate=45] at (-6mm, 74mm) {slot};
+
+
+
+\pic at (95mm, 0mm) {leg};
+\pic at (95mm, 20mm) {leg};
+\pic at (95mm, 40mm) {leg};
+\pic at (95mm, 60mm) {leg};
+
+
+
+\end{tikzpicture}
+\end{document}
