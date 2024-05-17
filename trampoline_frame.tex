@@ -12,8 +12,7 @@
 \draw (0mm, 2.9375mm) -- (0mm, 0mm) -- (2.9375mm, 0mm);
 \draw (3.0625mm, 0mm) -- (6mm,0mm) -- (6mm, 2.9375mm);
 \draw (6mm, 3.0625mm) -- (6mm, 6mm) -- (9mm, 6mm) -- (9mm, 8.9375mm);
-\draw (9mm, 9.0625mm) -- (9mm, 12mm) -- (3.0625mm, 12mm);
-\draw (2.9375mm, 12mm) -- (-3mm, 12mm) --(-3mm, 9.0625mm);
+\draw (9mm, 9.0625mm) -- (9mm, 12mm) -- (-3mm, 12mm) --(-3mm, 9.0625mm);
 \draw (-3mm, 8.9375mm) -- (-3mm, 6mm) -- (0mm, 6mm) -- (0,3.06125mm);
 }}
 
@@ -95,11 +94,15 @@
 
 
 
-\pic at (95mm, 0mm) {leg};
-\pic at (95mm, 20mm) {leg};
-\pic at (95mm, 40mm) {leg};
-\pic at (95mm, 60mm) {leg};
+%\pic at (95mm, 0mm) {leg};
+%\pic at (95mm, 20mm) {leg};
+%\pic at (95mm, 40mm) {leg};
+%\pic at (95mm, 60mm) {leg};
 
+\pic at (40mm, 40mm) {leg};
+\pic[rotate=270] at (40mm, 28mm) {leg};
+\pic[rotate=180] at (28mm, 28mm) {leg};
+\pic[rotate=90] at (28mm, 40mm) {leg};
 
 
 \end{tikzpicture}

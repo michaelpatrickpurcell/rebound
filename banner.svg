@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="334.6785mm"
+   height="71.196838mm"
+   viewBox="0 0 334.67851 71.196841"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="banner.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.51213161"
+     inkscape:cx="798.62284"
+     inkscape:cy="144.49411"
+     inkscape:window-width="1574"
+     inkscape:window-height="1032"
+     inkscape:window-x="2048"
+     inkscape:window-y="84"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ffff00;stop-opacity:1;"
+         offset="0.31300813"
+         id="stop1" />
+      <stop
+         style="stop-color:#ff8800;stop-opacity:1;"
+         offset="0.77439022"
+         id="stop3" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient52"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#55a4ff;stop-opacity:1;"
+         offset="0"
+         id="stop52" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="1"
+         id="stop53" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath33">
+      <rect
+         style="fill:#000000;stroke:none;stroke-width:0.999995;stroke-linecap:butt;stroke-linejoin:bevel;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect33"
+         width="46.19186"
+         height="80.006783"
+         x="74.999985"
+         y="399.99661" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath25">
+      <rect
+         style="fill:#ff0000;stroke:none;stroke-width:3;stroke-linecap:square;stroke-linejoin:miter;paint-order:stroke markers fill;stop-color:#000000"
+         id="rect25-8"
+         width="78"
+         height="45.033199"
+         x="763.61322"
+         y="452.82422" />
+    </clipPath>
+    <linearGradient
+       id="linearGradient24"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#ff8800;stop-opacity:1;"
+         offset="0"
+         id="stop24" />
+      <stop
+         style="stop-color:#ff8800;stop-opacity:0;"
+         offset="1"
+         id="stop25" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient52"
+       id="radialGradient53"
+       cx="111.42067"
+       cy="107.21956"
+       fx="111.42067"
+       fy="107.21956"
+       r="200.06276"
+       gradientTransform="matrix(0.83895614,0,0,0.1797392,22.502439,87.431374)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2"
+       cx="119.91241"
+       cy="110.96933"
+       fx="119.91241"
+       fy="110.96933"
+       r="151.13879"
+       gradientTransform="matrix(1,0,0,0.14970158,-2.8996468,90.090638)"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(51.359745,-71.104507)">
+    <rect
+       style="fill:url(#radialGradient53);fill-opacity:1;stroke:none;stroke-width:0.853275;stroke-dasharray:none;stroke-opacity:1"
+       id="rect52"
+       width="334.6785"
+       height="71.196838"
+       x="-51.359745"
+       y="71.104507" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:Monoton;-inkscape-font-specification:Monoton;mix-blend-mode:normal;fill:url(#radialGradient2);stroke:#ffaa00;stroke-width:0.603;stroke-dasharray:none;stroke-opacity:1"
+       x="-36.131378"
+       y="127.24121"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Monoton;-inkscape-font-specification:Monoton;fill:url(#radialGradient2);fill-opacity:1;stroke:#ffaa00;stroke-width:0.603;stroke-dasharray:none;stroke-opacity:1"
+         x="-36.131378"
+         y="127.24121">REBOUND</tspan></text>
+  </g>
+</svg>
